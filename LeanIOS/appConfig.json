@@ -1,0 +1,216 @@
+{
+  "forms": {
+    "signupConfig": {
+      "active": false,
+      "formSelector": null,
+      "formInputs": []
+    },
+    "loginConfig": {
+      "formSelector": null,
+      "loginIsFirstPage": false,
+      "formInputs": []
+    },
+    "interceptForms": {
+      "forms": []
+    }
+  },
+  "general": {
+    "userAgentAdd": "gonative",
+    "useWKWebView": true,
+    "initialUrl": "http://soma.webzdarma.cz/iui/",
+    "appName": "iDempiere Mobile UI",
+    "publicKey": "opxqn",
+    "deviceRegKey": "9na5pzkz623adhbcr95f48r0bg",
+    "replaceStrings": [],
+    "userAgentRegexes": []
+  },
+  "navigation": {
+    "navigationLevels": {
+      "levels": [
+        null
+      ]
+    },
+    "ignorePageFinishedRegexes": [],
+    "redirects": [],
+    "navigationTitles": {
+      "titles": [
+        null
+      ]
+    },
+    "regexInternalExternal": {
+      "rules": [
+        {
+          "regex": "mailto:.*",
+          "internal": false
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com/login.php.*",
+          "internal": true
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com/dialog.*",
+          "internal": true
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com/v1\\.0/.*",
+          "internal": true
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com/oauth.*",
+          "internal": true
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com/v2\\.0/.*",
+          "internal": true
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com/checkpoint.*",
+          "internal": true
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com.*",
+          "internal": false
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*plus\\.google\\.com/share.*",
+          "internal": false
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*twitter\\.com/.*",
+          "internal": false
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*instagram\\.com/.*",
+          "internal": false
+        },
+        {
+          "regex": "https?://maps\\.google\\.com.*",
+          "internal": false
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*linkedin\\.com/.*",
+          "internal": false
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*google\\.com/maps/search/.*",
+          "internal": false
+        },
+        {
+          "regex": ".*",
+          "internal": true
+        }
+      ]
+    },
+    "sidebarNavigation": {
+      "menus": [
+        {
+          "name": "default",
+          "active": false,
+          "items": null
+        },
+        {
+          "name": "loggedIn",
+          "active": false,
+          "items": null
+        }
+      ],
+      "menuSelectionConfig": {
+        "testURL": null,
+        "redirectLocations": [
+          {
+            "regex": null,
+            "menuName": "default",
+            "loggedIn": false
+          },
+          {
+            "regex": ".*",
+            "menuName": "default",
+            "loggedIn": true
+          }
+        ]
+      }
+    },
+    "tabNavigation": {
+      "tabMenus": [
+        {
+          "id": "1",
+          "items": [
+            {
+              "subLinks": []
+            }
+          ]
+        }
+      ],
+      "tabSelectionConfig": [
+        {
+          "id": "1",
+          "regex": ""
+        }
+      ]
+    },
+    "iosPullToRefresh": false,
+    "androidPullToRefresh": false
+  },
+  "performance": {
+    "webviewPools": [
+      {
+        "urls": [
+          {
+            "disown": "reload"
+          }
+        ]
+      }
+    ]
+  },
+  "permissions": {
+    "usesGeolocation": true
+  },
+  "services": {
+    "analytics": {
+      "active": false,
+      "idsite_prod": 27170,
+      "idsite_test": 27171
+    },
+    "push": {
+      "active": false
+    }
+  },
+  "styling": {
+    "icon": "uploads/1436558731022_uj8g49934za56_iDempiereLogo150x150.png",
+    "iosHeaderImage": "/uploads/1436558774579_1gtge802j7hpm_iDempiereLogo150x150.png",
+    "showActionBar": false,
+    "showNavigationBar": false,
+    "iosSidebarFont": "Default",
+    "androidHideTitleInActionBar": false,
+    "iosTheme": "light",
+    "androidTheme": "light",
+    "androidSidebarBackgroundColor": "#FFFFFF",
+    "androidSidebarForegroundColor": "#777777",
+    "androidActionBarBackgroundColor": "#bdbdbd",
+    "androidActionBarForegroundColor": "#000000",
+    "androidPullToRefreshColor": "#777777",
+    "androidAccentColor": "#009688",
+    "androidSidebarSeparatorColor": "#585858",
+    "iosTitleColor": "#333333",
+    "iosTintColor": "#0091fe",
+    "iosSidebarTextColor": "#333333",
+    "navigationTitleImage": false,
+    "androidStatusBarBackgroundColor": "#909090",
+    "hideWebviewAlpha": 0,
+    "disableAnimations": false,
+    "androidShowSplash": true,
+    "iosLaunchImages": {
+      "ios_launch_640x960": "uploads/1436558792705_r22mp3416trjg_640x960.png",
+      "ios_launch_640x1136": "uploads/1436558792711_gxh9xbfrmqy28_640x1136.png",
+      "ios_launch_768x1024": "uploads/1436558792717_fuu849xwht5q4_768x1024.png",
+      "ios_launch_1024x768": "uploads/1436558792737_ec47ft28ug136_1024x768.png",
+      "ios_launch_1536x2048": "uploads/1436558792749_rzr8zmtbcyna4_1536x2048.png",
+      "ios_launch_2048x1536": "uploads/1436558792765_f9d7vtugg5kpa_2048x1536.png",
+      "ios_launch_750x1334": "uploads/1436558792785_dfghx4r7b4354_750x1334.png",
+      "ios_launch_1242x2208": "uploads/1436558792821_ktwk3xe43pm80_1242x2208.png",
+      "ios_launch_2208x1242": "uploads/1436558792841_52445p2jbx7qg_2208x1242.png"
+    },
+    "menuAnimationDuration": 0.15,
+    "transitionInteractiveDelayMax": 0.2
+  }
+}
