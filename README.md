@@ -1,15 +1,16 @@
-gonative-ios
+iDempiere Mobile iOS App
 ============
 
-This is the native IOS code used by https://www.gonative.io/. It allows the creation of apps from existing mobile-optimized websites.
+This is native IOS code used for iDempiere Mobile demo. It allows the creation of apps from existing mobile-optimized web-app.
 
 How to use
 ------------
 
-Please preview app in browser or open in Xcode
+Please preview app in browser or open in Xcode. Edit appConfig.json as appropriate.
 
 Note: Xcode 6 required
 
-Open project in Xcode. Edit appConfig.json as appropriate.
+Licensing information available at https://gonative.io/non-commercial
+iDempiere shares GPLv2 Licence
 
-Licensing information available at https://gonative.io/.
+#ADempiere.org
