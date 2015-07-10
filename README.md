@@ -11,6 +11,7 @@ Please preview app in browser or open in Xcode. Edit appConfig.json as appropria
 Note: Xcode 6 required
 
 Licensing information available at https://gonative.io/non-commercial
+
 iDempiere shares GPLv2 Licence
 
 #ADempiere.org
